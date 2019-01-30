@@ -60,6 +60,8 @@
 #define CONFIG_SYS_MEMTEST_START	0x80000000
 #define CONFIG_SYS_MEMTEST_END		0x9fffffff
 
+#undef CONFIG_BOOTDELAY
+#define CONFIG_BOOTDELAY                2
 #undef CONFIG_EXTRA_ENV_SETTINGS
 #define CONFIG_EXTRA_ENV_SETTINGS		\
 	"verify=no\0"                           \
